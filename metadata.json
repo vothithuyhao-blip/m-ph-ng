@@ -1,0 +1,6 @@
+{
+  "name": "Mô phỏng mạng LAN",
+  "description": "Ứng dụng mô phỏng trực quan mạng LAN, thiết bị kết nối (Switch, Hub, Máy chủ, Máy trạm) và nguyên lý truyền nhận thông tin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

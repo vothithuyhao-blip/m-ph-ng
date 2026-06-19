@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Custom Sleek Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* Slate-950 bg */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155; /* Slate-700 track thumb */
+  border: 2px solid #020617;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6366f1; /* Indigo-500 highlight */
+}
+
+/* Custom Scrollbar specifically designed for web kit scroll on touch and projectors */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
